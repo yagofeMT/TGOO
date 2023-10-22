@@ -1,0 +1,12 @@
+.navbar {
+    width: 15rem;
+    height: 100vh;
+    background: var(--background-dark-header);
+}
+
+@media screen and (max-width: 900px){
+    .navbar{
+        width: 100vw;
+        height: 10vh;
+    }
+}

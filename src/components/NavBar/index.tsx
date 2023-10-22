@@ -1,10 +1,12 @@
 import React from 'react'
-import styles from './navbar.module.scss'
+import styles from '../../styles/components/navbar.module.scss'
 
 export default function NavBar() {
   return (
-    <div className={styles.navbar}>
-        aa
-    </div>
+    <nav className={styles.navbar}>
+        <ul>
+          <li>Pagina Inicial</li>
+        </ul>
+    </nav>
   )
 }
